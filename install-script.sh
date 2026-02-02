@@ -14,3 +14,8 @@ sudo make clean install
 cd ../st
 sudo make clean install
 
+cd ..
+cp dot-files/.xinitrc ~
+
+startx
+
