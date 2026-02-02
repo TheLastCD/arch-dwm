@@ -1,0 +1,9 @@
+[submodule "arch-desktop-env/dwm"]
+	path = arch-desktop-env/dwm
+	url = https://git.suckless.org/dwm
+[submodule "arch-desktop-env/st"]
+	path = arch-desktop-env/st
+	url = https://git.suckless.org/st
+[submodule "arch-desktop-env/dmenu"]
+	path = arch-desktop-env/dmenu
+	url = https://git.suckless.org/dmenu
