@@ -14,8 +14,11 @@ sudo make clean install
 cd ../st
 sudo make clean install
 
-cd ..
-cp dot-file/.xinitrc ~/
+cd ../..
+cp dot-file/.xinitrc ~
+
+cd ~
+touch .Xauthority
 
 startx
 
