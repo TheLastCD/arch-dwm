@@ -1,5 +1,5 @@
 # install dependencies
-sudo pacman -S vi base-devel git xorg-server xorg-xinit ttf-liberation libxinerama xorg-init
+sudo pacman -S vi base-devel git xorg-server xorg-xinit ttf-liberation libxft libxinerama 
 
 
 
@@ -15,7 +15,7 @@ cd ../st
 sudo make clean install
 
 cd ..
-cp dot-files/.xinitrc ~
+cp dot-file/.xinitrc ~/
 
 startx
 
